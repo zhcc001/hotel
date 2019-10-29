@@ -1,0 +1,70 @@
+{
+	"miniprogramRoot": "dist/",
+	"projectname": "myApp",
+	"description": "测试",
+	"appid": "wxb4275bdd29f1c7e0",
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": false,
+		"minified": false,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"bundle": true
+	},
+	"compileType": "miniprogram",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "二维码进入注册",
+					"pathName": "pages/currencyPro/pages/currencyDetail/index",
+					"query": "Id=10022",
+					"scene": 1011
+				},
+				{
+					"id": 1,
+					"name": "二维码进入注册",
+					"pathName": "pages/appIndex/index",
+					"query": "staffId=104645&type=invite",
+					"scene": 1011
+				},
+				{
+					"id": -1,
+					"name": "二维码进入注册",
+					"pathName": "pages/appIndex/index",
+					"query": "ID=10020&type=share_ticket",
+					"scene": null
+				}
+			]
+		}
+	}
+}
